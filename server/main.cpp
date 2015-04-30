@@ -241,6 +241,7 @@ main (int argc, char **argv)
 
   transport->stop();
 
+  gst_deinit ();
   GST_INFO ("Mediaserver stopped");
 
   return 0;
